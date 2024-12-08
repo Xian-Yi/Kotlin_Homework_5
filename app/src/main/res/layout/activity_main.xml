@@ -1,0 +1,10 @@
+
+<!-- activity_main.xml 是一個描述 Android UI 的 XML 檔案，不涉及語言差異 -->
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"/>
